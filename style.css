@@ -209,6 +209,26 @@ main {
   border-left: 1px solid #fff;
 }
 
+/* width */
+.country-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.country-list::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+.country-list::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+}
+
+/* Handle on hover */
+.country-list::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
 footer {
   max-width: 1200px;
   height: 60px;
