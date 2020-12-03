@@ -232,3 +232,11 @@ footer {
 .copyright p {
   color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .latest-report {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
