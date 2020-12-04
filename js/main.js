@@ -17,3 +17,6 @@ let app_data = [],
     recovered_list = [],
     deaths_list = [],
     dates = [];
+
+//Get user country
+
